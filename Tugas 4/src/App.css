@@ -1,0 +1,121 @@
+/* Layout */
+.app-container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+/* Header Styles */
+.app-header {
+  margin-bottom: 4rem;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+}
+
+.header-divider {
+  width: 7rem;
+  height: 3px;
+  background-color: var(--border-color);
+}
+
+/* Section Styles */
+.section {
+  margin-bottom: 4rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.section-subtitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.section-text {
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+/* Divider Styles */
+.section-divider {
+  border-top: 1px solid var(--border-color);
+  padding-top: 2rem;
+  margin: 4rem 0;
+}
+
+/* Recent Work Styles */
+.recent-work-list {
+  list-style: none;
+  padding: 0;
+}
+
+.recent-work-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.25rem;
+}
+
+.project-name {
+  font-size: 1.125rem;
+  min-width: 14rem;
+  margin-bottom: 0.25rem;
+}
+
+.project-details {
+  font-size: 1.125rem;
+  color: var(--text-primary);
+}
+
+/* Arrivals Styles */
+.arrivals-list {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+}
+
+.arrivals-list li {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer Styles */
+.app-footer {
+  border-top: 1px solid var(--border-color);
+  padding-top: 2rem;
+}
+
+.footer-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.footer-text {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.footer-subtext {
+  font-size: 1rem;
+  margin: 0.25rem 0;
+  color: var(--text-secondary);
+}
+
+/* Responsive Styles */
+@media (min-width: 640px) {
+  .recent-work-item {
+    flex-direction: row;
+  }
+  
+  .project-name {
+    margin-bottom: 0;
+  }
+}
