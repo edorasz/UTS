@@ -1,0 +1,17 @@
+/* Styling untuk aplikasi secara keseluruhan */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Styling untuk link yang ada di aplikasi */
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+/* Hapus atau sesuaikan animasi logo jika tidak digunakan */
+.App-logo {
+  display: none; /* Menghilangkan logo jika tidak diperlukan */
+}
+

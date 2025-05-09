@@ -1,0 +1,33 @@
+/* Styling untuk komponen Pokemon */
+.pokemon {
+    position: relative; /* Agar kita bisa menempatkan ID di kiri atas */
+    text-align: center;
+    background-color: #1e2330; /* Warna background biru gelap */
+    max-width: 350px; /* Membuat latar belakang mengisi seluruh lebar layar (viewport width) */
+    display: flex;
+    flex-direction: column; /* Mengatur konten secara vertikal */
+    align-items: center; /* Menyelaraskan konten secara horizontal di tengah */
+    justify-content: center; /* Menyelaraskan konten secara vertikal di tengah */
+    padding: 20px; /* Memberikan ruang pada tepi */
+    box-sizing: border-box; /* Memastikan padding tidak menambah ukuran */
+  }
+  
+  .pokemon-id {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    font-size: 32px;
+    color: #97A0CC;
+  }
+  
+  .pokemon-image {
+    display: flex;
+    justify-content: center; /* Menjaga gambar di tengah */
+    margin-top: 100px;
+  }
+  
+  .pokemon-img {
+    width: 300px; /* Ukuran gambar Pokémon */
+    height: auto;
+  }
+  

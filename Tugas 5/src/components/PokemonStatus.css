@@ -1,0 +1,60 @@
+/* Styling untuk card Stats */
+.stats-container {
+    display: flex;
+    justify-content: center;
+    background-color: #1e2330;
+    margin-top: -5px;
+}
+
+.stats-card {
+    background-color: #05091B;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: left;
+    margin-bottom: 100px;
+  }
+
+  
+  /* Styling untuk setiap stat (Health, Attack, Defense) */
+  .stat-wrapper {
+    display: flex;
+    gap: 100px;
+  }
+  
+  .stat label {
+    font-size: 18px;
+    color: #97A0CC;
+  }
+  
+  .stat p {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  
+  /* Styling untuk progress bar */
+  .progress-bar {
+    background-color: #1e2330;
+    border-radius: 10px;
+    height: 6px;
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    background-color: #1abc9c;
+    height: 100%;
+    width: 0; /* Diatur secara dinamis di React */
+    border-radius: 10px 0 0 10px;
+  }
+  
+  /* Styling khusus untuk stat attack dan defense */
+  .stat p {
+    color: #fff; /* Warna biru untuk stat */
+    font-weight: bold;
+    font-size: 24px;
+  }
+  

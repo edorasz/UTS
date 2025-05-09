@@ -1,0 +1,62 @@
+/* Styling untuk menu Sort */
+.sort-menu {
+    display: flex;
+    justify-content: space-between; /* Memisahkan dropdown dan ikon */
+    align-items: center; /* Menyelaraskan elemen secara vertikal */
+    border-radius: 10px;
+    width: 100%;
+    margin: 20px auto; /* Menjaga agar menu berada di tengah */
+  }
+  
+  .dropdown {
+    width: 70%; /* Memberikan lebar lebih besar untuk dropdown */
+  }
+  
+  .sort-dropdown {
+    width: 100%;
+    padding: 10px;
+    background-color: #3D4466;
+    color: #ecf0f1;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .sort-dropdown option {
+    background-color: #3D4466;
+    color: #ecf0f1;
+  }
+  
+  /* Styling untuk ikon grid dan list */
+  .icons {
+    display: flex;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3D4466;
+    padding: 10px;
+    cursor: pointer;
+    color: #ecf0f1;
+  }
+  
+  .icon:hover {
+    background-color: #2f3440; /* Warna saat hover */
+  }
+  
+  .icon i {
+    font-size: 18px; /* Ukuran ikon */
+  }
+
+  .grid-right {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .grid-left {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  

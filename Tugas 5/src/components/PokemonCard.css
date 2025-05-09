@@ -1,0 +1,47 @@
+/* Styling untuk kartu Pokémon */
+.pokemon-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Styling untuk bagian header (Type dan ID) */
+  .pokemon-card-header {
+    display: flex;
+    justify-content: space-between; /* Membuat Type dan ID berada di kiri dan kanan */
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .pokemon-card-type {
+    color: #2ecc71; /* Warna hijau untuk jenis Pokémon */
+    font-weight: bold;
+  }
+  
+  .pokemon-card-id {
+    color: #3498db; /* Warna biru untuk ID Pokémon */
+    font-weight: bold;
+  }
+  
+  /* Styling untuk gambar Pokémon */
+  .pokemon-card-image {
+    margin-bottom: 15px;
+  }
+  
+  .pokemon-card-img {
+    width: 100px; /* Ukuran gambar Pokémon */
+    height: auto;
+  }
+  
+  /* Styling untuk nama Pokémon */
+  .pokemon-card-name p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,38 @@
+.home {
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    background-color: #1e2330;
+    display: flex;
+    justify-content: center;
+  }
+
+  main {
+    display: grid;
+    justify-content: center;
+    padding: 100px 20px 150px 20px;
+    max-width: 350px;
+  }
+
+  .pokemon-card-list {
+    display: grid;
+    gap: 15px; /* Space between the cards */
+    
+  }
+
+  .single-column {
+    grid-template-columns: repeat(1, 1fr); /* 2 equal-width columns */
+    width: 330px;
+  }
+
+  .two-columns {
+    grid-template-columns: repeat(2, 1fr); /* 2 equal-width columns */
+  }
+  /* Styling untuk halaman Home jika kamu ingin menambahkan styling global */
+a {
+  text-decoration: none;
+}
+
+/* Optionally remove other text decorations if needed */
+* {
+  text-decoration: none;
+}

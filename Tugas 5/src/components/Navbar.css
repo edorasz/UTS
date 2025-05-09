@@ -1,0 +1,24 @@
+/* Styling untuk navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Menyebarkan elemen kiri dan kanan */
+    align-items: center; /* Menyelaraskan elemen secara vertikal */
+    background-color: #1e2330; /* Warna background navbar */
+    padding: 10px 20px; /* Memberikan ruang dalam navbar */
+    position: fixed; /* Membuat navbar tetap di atas saat scroll */
+    width: 100%; /* Mengisi seluruh lebar layar */
+    top: 0; /* Navbar berada di atas */
+    left: 0;
+    z-index: 1000; /* Memastikan navbar tetap di atas konten lain */
+    border-bottom: 1px solid grey;
+  }
+  
+  /* Styling logo dan teks */
+  .navbar-logo {
+    display: flex;
+    align-items: center; /* Menyelaraskan logo dan teks secara vertikal */
+  }
+  
+  .logo {
+    height: 35px;
+  }

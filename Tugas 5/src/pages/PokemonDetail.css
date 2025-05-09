@@ -1,0 +1,10 @@
+.pokemon-detail-container {
+    display: flex;
+    justify-content: center;
+    
+    background-color: #1e2330; /* Warna background biru gelap */
+}
+
+.pokemon-detail {
+    max-width: 350px;
+}
